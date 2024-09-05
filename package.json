@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development runtime-env-cra --config-name=./public/runtime-env.js && react-scripts start",
-    "build": "runtime-env-cra --config-name=./public/runtime-env.js && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
