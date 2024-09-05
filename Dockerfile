@@ -2,8 +2,7 @@
 FROM node:20-alpine as build
 
 # Specify where our app will live in the container
-WORKDIR /App
-
+WORKDIR /app
 # Copy the React App to the container
 COPY . /app/
 
